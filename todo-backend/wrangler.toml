@@ -1,0 +1,26 @@
+name = "todo-backend"
+compatibility_date = "2023-12-01"
+
+# [vars]
+# MY_VAR = "my-variable"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
+
+
+[vars]
+SECRET_KEY="HSHJSIISUH7663TG3V3U28YHEBHUWU"
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiMTI3MTBhYzAtOGU0OS00NjgzLWJjYmQtYzg3ODk1YzI1ODVkIiwidGVuYW50X2lkIjoiMWNhOWVkYzQxOTllY2MyNTQ3OTlmMmU5NTdlMzE2OGE5N2NmOGQ3MTAxMmZkNWM1YjQxYzAxMjViYTAxOWI4NSIsImludGVybmFsX3NlY3JldCI6IjIxYjA5NDI1LWZiYzUtNGU0Zi05OWQ3LTY0MThjMDM3NWVmZCJ9.BeHrHf_hfRqx4PE8PwfF0wx-qw0CLbVPSYrdSUJ26Qo"
