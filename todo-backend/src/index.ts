@@ -7,9 +7,9 @@ const app = new Hono();
 
 app.use(
   "/*",
-  cors( /**{
-    origin: ["http://localhost:5173/"],
-  } */)
+  cors( {
+    origin: ["https://todo-app-six-khaki.vercel.app"],
+  } )
 );
 
 app.route("/api/v1/user", userRoute);
